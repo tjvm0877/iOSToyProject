@@ -54,6 +54,7 @@
 		A9DDF04528F7A20C00C2C2A0 /* MemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				A9DDF05428F7A20D00C2C2A0 /* Info.plist */,
 				A9DDF05B28F7A4C800C2C2A0 /* Sources */,
 				A9DDF05A28F7A4BF00C2C2A0 /* Resource */,
 			);
@@ -61,6 +62,15 @@
 			sourceTree = "<group>";
 		};
 		A9DDF05A28F7A4BF00C2C2A0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A9DDF05C28F7A4EF00C2C2A0 /* Storyboards */,
+				A9DDF04F28F7A20D00C2C2A0 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A9DDF05B28F7A4C800C2C2A0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				A9DDF04628F7A20C00C2C2A0 /* AppDelegate.swift */,
@@ -72,16 +82,6 @@
 				A9DDF05F28F7A52200C2C2A0 /* Models */,
 				A9DDF05E28F7A51B00C2C2A0 /* Extentions */,
 				A9DDF05D28F7A50D00C2C2A0 /* APIServices */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		A9DDF05B28F7A4C800C2C2A0 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				A9DDF05C28F7A4EF00C2C2A0 /* Storyboards */,
-				A9DDF04F28F7A20D00C2C2A0 /* Assets.xcassets */,
-				A9DDF05428F7A20D00C2C2A0 /* Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
